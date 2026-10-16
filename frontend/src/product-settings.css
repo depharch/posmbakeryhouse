@@ -1,0 +1,24 @@
+.catalog-row{min-height:52px}
+.edit-mini,.remove-mini,.save-mini,.cancel-mini{background:#f6f0e9;border:1px solid var(--line);padding:6px 8px;font-size:10px;color:var(--brown)}
+.remove-mini,.cancel-mini{color:#a4584f;padding:6px}
+.edit-mini{margin-left:8px}
+.catalog-edit{display:grid;grid-template-columns:1fr 100px auto auto;gap:7px;padding:10px 0;border-bottom:1px solid var(--line)}
+.catalog-edit input{min-width:0;border:1px solid var(--line);padding:8px;font-size:11px}
+.outline-btn.danger{color:#a4584f;border-color:#edd3cf}
+.outline-btn.danger:hover:not(:disabled){background:#fbeae7}
+.outline-btn:disabled{opacity:.4;cursor:not-allowed}
+.payment-options.three{grid-template-columns:1fr 1fr 1fr}
+.split-sum{display:flex;justify-content:space-between;background:#f5efe7;color:var(--brown);padding:11px;margin:-3px 0 17px;font-size:12px;font-weight:600}
+.split-sum b{font-size:14px}
+.pin-modal h2{font-size:21px}
+.pin-gate{padding:60px 4%;display:grid;place-items:center}
+.pin-gate-box{background:#fff;border:1px solid var(--line);padding:40px 36px;max-width:380px;width:100%;text-align:center}
+.pin-lock{width:52px;height:52px;border-radius:50%;background:#f3e9df;color:var(--brown);display:grid;place-items:center;margin:0 auto 18px}
+.pin-gate-box h2{margin:0 0 8px;font-size:22px}
+.pin-gate-box .muted{margin:0 0 24px;font-size:12px}
+.pin-inline{display:flex;gap:8px}
+.pin-inline input{flex:1;border:1px solid var(--line);padding:14px 16px;letter-spacing:6px;text-align:center;font-size:16px;background:#fff;outline:0;color:var(--ink)}
+.pin-inline input:focus{border-color:var(--brown);box-shadow:0 0 0 3px #6e463015}
+.pin-inline button{padding:14px 22px}
+.error{background:#fbeae7;color:#a4584f;padding:10px;font-size:12px;border-radius:3px;margin-top:12px}
+tr[data-testid^="transaction-row"] input[type="checkbox"],.transactions-select-all,th input[type="checkbox"]{accent-color:var(--brown)}
